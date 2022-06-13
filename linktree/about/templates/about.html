@@ -1,0 +1,37 @@
+<h1> {{ header }} | {{ header2 }} | {{ header3 }}  </h1>
+
+<ul>
+
+{% for i in data %}
+
+ <li> {{ i }} </li>
+
+{% endfor %}
+
+</ul>
+
+<h1> Aspect of Mountain </h1>
+
+    {% for i in vec %}
+    
+     <span> {{ i }} </span>
+    
+    {% endfor %}
+
+<div>{{ aspect }}</div>
+    
+{% for i in vec2 %}
+    
+<span> {{ i }} </span>
+
+{% endfor %}
+
+<div>{{ aspect2 }}</div>
+
+<h1> Check Order Arr </h1>
+
+    {% for i in checkorder %}
+    
+     <span style='background-color:{% cycle 'coral' ' gray' %}'> {{ i }} </span>
+    
+    {% endfor %}
