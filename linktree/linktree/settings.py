@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'members.apps.MembersConfig',
+    'events.apps.EventsConfig',
     'myclimbs.apps.MyclimbsConfig',
     'about.apps.AboutConfig',
     'contact.apps.ContactConfig',
