@@ -2,8 +2,10 @@
 <html>
 <body>
 
+    <p style="text-align: center;background-color: yellow; color: green; font-size: 40px">Welcome to my Algorithms Django project!</p>
+
 <h1 style="background-color: blue; color: yellow;font-size: 50px">Singly Linked List Data Structure</h1>
-<p>Welcome to my first Django project!</p>
+
 <div class="container" style ="font-size: 50px">
     <p> List:    
     {% for element in arr %}
@@ -19,6 +21,30 @@
 
     {% endfor %}
     </p>    
-</div>    
+
+<h1 style="background-color: blue; color: yellow;font-size: 50px">Longest Increasing Subsequence (time complexity O(n^2))</h1>
+
+<p> List:    
+    {% for element in list %}
+
+    <span>{{ element }} </span>
+
+    {% endfor %}
+    </p>    
+
+    <span>Start Position: </span> <span>{{ startPos  }}</span>
+
+    <span>Max Length: </span> <span>{{ maxL }}</span>
+
+    <p>SubSequence:     
+
+    {% for element in subsequence %}
+
+    <span>{{ element }} </span>
+
+    {% endfor %}
+    </p>    
+
+</div>
 </body>
 </html>
